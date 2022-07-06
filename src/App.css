@@ -1,0 +1,39 @@
+main {
+    background: linear-gradient(#65307c, rgb(14, 5, 14));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form input {
+    margin: 10px;
+    height: 20px;
+    width: 80%;
+    border: none;
+    background: #fff;
+}
+form button {
+    margin: 10px;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+div {
+    background: #fff;
+    text-align: center;
+}
+div p {
+    text-transform: capitalize;
+}
